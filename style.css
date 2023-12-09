@@ -1,3 +1,552 @@
-h1{
-    color: aqua;
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
 }
+.artbord{
+
+width: 1440px;
+/* height: 7965px; */
+background: #FCFCFF;
+}
+
+.background2{
+    
+    top: 0px;
+    height: 1122px;
+    width: 1440px;
+    background-color:  #F1F1F3;
+    /* opacity: 30%; */
+    border-radius: 0px 0px 100px 0px;
+    }
+.header{
+ 
+    top: 0px;
+    height: 920px;
+    width: 1440px;
+ 
+    background-color: #F1F1F3;
+    overflow: hidden;
+    /* opacity: 1; */
+
+
+}
+
+.background1{
+   
+    height: 920px;
+    width: 1305px;
+    background-color: #F2733B;
+    opacity: 1;  
+      border-radius: 0px 0px 100px 0px;
+     
+
+    }
+.gola1{
+   
+    top: 320px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    
+    background-color: #FFA300;
+    border-radius:   0px 1000px 0px 0px;
+}
+.gola2{
+   
+    top: -450px;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    left: 905px;
+    background-color: #FFA300;
+    border-radius:   1000px;
+}
+.laip{
+    position: relative;
+    top: 50px;
+    
+    height: 550px;
+    
+    
+}
+  
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 45px;
+    left: 205px;
+    width: 1028px;
+    height: 40px;
+    opacity: 1;
+}
+     
+.p1{
+    margin: 0px;
+    font-size: 34px;
+    font-weight:700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    gap: 20px;
+}
+.get{
+    position: relative;
+    top: 312px;
+    left: 205px;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+.get h1{
+    margin: 0px;
+}
+.rite{
+    position: relative;
+    top: 300px;
+    left: 205px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 500px;
+}
+.start{
+    position: relative;
+    top: 312px;
+    left: 205px;
+
+    background-color: #FFA300;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    width: auto;
+    padding: 30px;
+    border-radius: 50px;
+    color: white;
+
+    
+}
+.bot{
+    position: relative;
+    bottom: -50px;
+    left: 257px;
+    height: 102px;
+}
+ 
+/* fast page complite */
+
+
+.praise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 132px;
+    width: 1170px;
+    padding-bottom: 20px;
+    
+    
+}
+.choose{
+  
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.choose h1{
+   color: black;
+}
+.choose p{
+    color: rgb(94, 92, 92) ;
+    margin-bottom: 50px;
+}
+.card{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between
+    
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ width: 370px;
+ padding-bottom: 20px;
+ background-color: white;
+}
+
+
+.card1 h3{
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    
+}
+.card1 p{
+    color: #838383;
+}
+.mant{
+    display: flex;
+    gap: 10px;
+    height: 70px;
+}
+.card1 h1{
+    color: blue;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+.mant .manth{
+    position: relative;
+    
+    color: blue;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+   
+}
+.card1 p{
+    width: 300px;
+    font-weight:bold;
+    color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+.card1 button{
+    padding: 15px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #FFA300;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.list{
+
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: #838383;
+
+}
+p .lern{
+    color: blue;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    
+}
+.praisehost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin:10px 215px;
+    width: 1010px;
+    padding-bottom: 20px;   
+}
+ 
+/* page three start */
+
+.cardb{
+    display: flex;
+    width: 1010px;
+    justify-content: space-between
+    
+}
+.cardb1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ width: 320px;
+ padding-bottom: 20px;
+ background-color: white;
+}
+
+.cardb1 .ig1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    width: 65px;
+    margin-top: 50px;
+    background-color: #E5EAFF;
+    border-radius: 0px 20px;
+}
+.ig1 .ig2{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #F2733B;
+    border-radius: 100px 100px;
+}
+.cardb1 h3{
+    width: 268px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardb1 p{
+    width: 280px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: #838383;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* page fore start */
+
+
+.choose .cercal{
+    position: relative;
+    left: -70px;
+    height: 638px;
+    width: 638px;
+    background-color: #F2733B;
+    border-radius: 1000px;
+}
+.cercal img{
+    width: 909px;
+    position: relative;
+    left: -140px;
+    bottom: -44px;
+}
+/* page five start */
+.choose .map{
+   position: relative;
+   left: -350px;
+    
+}
+/* page six start */
+
+.what{
+    display: flex;
+    height: 500px;
+    width: 1030px;
+    /* background-color: red; */
+}
+.what .what1{
+    font-weight: 600;
+    width: 319px;
+}
+.what .what1 h1{
+    font-weight: 600;
+    width: 319px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.what .what1 h2{
+    font-weight: 700;
+    font-size: 73px;
+    width: 319px;
+    color: blue;
+}
+.what .what1 h5{
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    left: 100px;
+    top: -70px;
+    
+    width: 319px;
+}
+.what .what1 .s{
+    display: flex;
+ gap: 50px;
+ font-size: 50px;
+    
+}
+.what .what1 .s button{
+    position: relative;
+    top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background: #FFAD00;
+   height: 70px;
+   width: 70px;
+   border: none;
+    
+}
+.what .what2 p{
+    position: relative;
+    width: 600px;
+    top: 100px;
+    
+}
+.ddd{
+    position: relative;
+    top: 150px;
+    height: 102px;
+    width: 102px;
+    border-radius: 0px 20px;
+    background-color: #DFDFDF;
+}
+.part{
+    position: relative;
+    top: 70px;
+    left: 120px;
+}
+.part h4{
+    margin: 0px;
+    font-size: x-large;
+    font-weight: 700;
+}
+.part #pa{
+   position: relative;
+   top: 0px;
+}
+
+/* page saven start */
+
+
+.w3-container {
+    width: 800px;
+    padding: 0.01em 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    left: -200px;
+}
+.ab{
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+.w3-container h4{
+    display: flex;
+    align-items: start;
+    margin: 0px;
+    width: 770px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    
+}
+.w3-container p{
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.whatpeople{
+    font-size: 40px;
+    font-weight: bold;
+    width: 464px;
+}
+
+/* final page fupter start */
+
+
+.fut{
+    width: 1440px;
+    height: 516px;
+    background-color: #F2733B;
+    border-radius: 200px 0px 0px 0px;
+    overflow: hidden;
+
+}
+.cer1{
+    position: relative;
+    left:-200px ;
+    top: -400px;
+    height: 600px;
+    width: 600px;
+    border-radius: 1000px;
+    background-color: #FFAD00;
+}
+.cer2{
+    position: relative;
+    left: 1000px;
+    top: -400px;
+    height: 600px;
+    width: 600px;
+    border-radius: 1000px;
+    background-color: #FFAD00;
+}
+.tex56{
+    color: #F1F1F3;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    top: -1200px;
+    height: 500px;
+    width: 1400px;
+
+}
+.tex56 .a1{
+    position: relative;
+    left: 205px;
+    top: 88px;
+    width: 250px;
+}
+.tex56 .a1 h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.tex56 .a1 p{
+    font-size: 20px;
+}
+.tex56 .a2{
+    position: relative;
+    left: 205px;
+    top: 100px;
+    width: auto;
+}
+.tex56 .a2 h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+.tex56 .a2 p{
+    font-size: 20px;
+    
+}
+.tex56 .a2 .asdf{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    
+}
+
+.tex56 .a2 .asdf .g1{
+   height: 30px;
+   width: 30px;
+   background-color: white;
+   border-radius: 50px;
+    
+}
+.cer3{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left:100px ;
+    top: -1250px;
+    height: 100px;
+    width: 1200px;
+    padding: 0px 50px;
+    color: white;
+    border-top: 1px solid;
+    
+}
+
+
